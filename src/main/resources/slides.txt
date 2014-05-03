@@ -4,8 +4,7 @@ Python is an easy to learn, powerful programming language. It has efficient high
 <i>Type next to move to the next session.</i>
 ============
 Introduction
-Type "help", "copyright", "credits" or "license" for more information.
-<i>Type <code>go on</code> to move to the next session.</i>
+Type "about" for more information.
 ============
 Lambda Expressions
 The above example uses a lambda expression to return a function. Another use is to pass a small function as an argument:
