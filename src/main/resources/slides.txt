@@ -5,7 +5,7 @@ Python is an easy to learn, powerful programming language. It has efficient high
 ============
 Introduction
 Type "help", "copyright", "credits" or "license" for more information.
-<i>Type "go on" to move to the next session.</i>
+<i>Type <code>go on</code> to move to the next session.</i>
 ============
 Lambda Expressions
 The above example uses a lambda expression to return a function. Another use is to pass a small function as an argument:
@@ -15,6 +15,7 @@ The above example uses a lambda expression to return a function. Another use is 
 >>> pairs.sort(key=lambda pair: pair[1])
 >>> pairs
 [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+<i>Type <code>next</code> to move to the next session.</i>
 ============
 Free mode
 Play with python some time, if you want :)
