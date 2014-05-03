@@ -35,6 +35,11 @@ public class PythonTutorialBundle extends SimpleBundleContainer {
                 boolean completed = false;
 
                 @Override
+                public boolean isCommandExecutable(String command) {
+                    return !command.equals("about");
+                }
+
+                @Override
                 public boolean isCompleted() {
                     return completed;
                 }
@@ -45,7 +50,7 @@ public class PythonTutorialBundle extends SimpleBundleContainer {
                         completed = true;
                         return new TaskReaction("Made at JetBrains EdTech Hackathon, May 1st-3rd, 2014 in St. Petersburg, Russia");
                     } else {
-                        return new TaskReaction(null);
+                        return new TaskReaction("Enter \"about\"!");
                     }
                 }
             };
