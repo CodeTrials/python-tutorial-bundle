@@ -1,0 +1,20 @@
+Introduction
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+<i>Type next to move to the next session.</i>
+============
+Introduction
+Type "help", "copyright", "credits" or "license" for more information.
+<i>Type "go on" to move to the next session.</i>
+============
+Lambda Expressions
+The above example uses a lambda expression to return a function. Another use is to pass a small function as an argument:
+
+>>>
+>>> pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+>>> pairs.sort(key=lambda pair: pair[1])
+>>> pairs
+[(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+============
+Free mode
+Play with python some time, if you want :)
