@@ -2,6 +2,7 @@ package org.codetrials.examples.python;
 
 import org.codetrials.bundle.Task;
 import org.codetrials.bundle.engines.BundleEngine;
+import org.codetrials.bundle.engines.PythonEngine;
 import org.codetrials.bundle.entities.TaskDescription;
 import org.codetrials.bundle.helpers.SimpleBundleContainer;
 import org.codetrials.bundle.helpers.tasks.FreeTask;
@@ -17,8 +18,8 @@ import java.util.List;
  */
 public class PythonTutorialBundle extends SimpleBundleContainer {
 
-    public PythonTutorialBundle(BundleEngine engine) {
-        super(engine);
+    public PythonTutorialBundle() {
+        super(new PythonEngine());
     }
 
     private TaskDescription load(int id) throws IOException {
