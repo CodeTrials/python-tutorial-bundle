@@ -1,7 +1,6 @@
 package org.codetrials.examples.python;
 
 import org.codetrials.bundle.Task;
-import org.codetrials.bundle.engines.BundleEngine;
 import org.codetrials.bundle.engines.PythonEngine;
 import org.codetrials.bundle.entities.TaskDescription;
 import org.codetrials.bundle.helpers.SimpleBundleContainer;
